@@ -1,3 +1,7 @@
+# Info for reviewers
+- Web App Domain: d74oyntwk96wf.cloudfront.net
+- Bucket (Access Denied): http://vitali-shatsou-my-store-app.s3.eu-west-1.amazonaws.com/index.html
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
