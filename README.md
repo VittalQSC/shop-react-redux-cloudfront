@@ -1,5 +1,5 @@
 # Info for reviewers
-- Web App Domain: d3d9yi29c6pm6c.cloudfront.net
+- Web App Domain: d1t4j07yv6l8p0.cloudfront.net
 - Bucket (Access Denied): http://vshatsou-my-store-app.s3.eu-west-1.amazonaws.com/index.html
 
 # React-shop-cloudfront
