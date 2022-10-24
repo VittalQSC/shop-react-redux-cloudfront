@@ -1,6 +1,6 @@
 # Info for reviewers
-- Web App Domain: d74oyntwk96wf.cloudfront.net
-- Bucket (Access Denied): http://vitali-shatsou-my-store-app.s3.eu-west-1.amazonaws.com/index.html
+- Web App Domain: d3d9yi29c6pm6c.cloudfront.net
+- Bucket (Access Denied): http://vshatsou-my-store-app.s3.eu-west-1.amazonaws.com/index.html
 
 # React-shop-cloudfront
 
