@@ -31,15 +31,20 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
     }
 
     // Get the presigned URL
+    const token = localStorage.getItem("authorization_token");
     const response = await axios({
       method: "GET",
       url,
+      headers: token ? { Authorization: `Basic ${token}` } : {},
       params: {
         name: encodeURIComponent(file.name),
       },
     });
     console.log("File to upload: ", file.name);
     console.log("Uploading to: ", response.data);
+    if (response.status === 401 || response.status === 403) {
+      alert(`The action was rejected: ${JSON.stringify(response)}`);
+    }
     const result = await fetch(response.data, {
       method: "PUT",
       body: file,
