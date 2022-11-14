@@ -42,9 +42,6 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
     });
     console.log("File to upload: ", file.name);
     console.log("Uploading to: ", response.data);
-    if (response.status === 401 || response.status === 403) {
-      alert(`The action was rejected: ${JSON.stringify(response)}`);
-    }
     const result = await fetch(response.data, {
       method: "PUT",
       body: file,
